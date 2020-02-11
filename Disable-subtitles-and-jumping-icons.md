@@ -42,6 +42,6 @@
 var children = document.getElementById("appmenu").children;
   for (var i = 0; i < children.length; i++)  
   {
-    document.getElementById("appmenu").children[i].title=document.getElementById("appmenu").children[i].textContent;
+    document.getElementById("appmenu").children[i].title=document.getElementById("appmenu").children[i].textContent.trim();
   }
 ```
